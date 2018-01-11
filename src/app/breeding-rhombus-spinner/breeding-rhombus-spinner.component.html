@@ -1,0 +1,4 @@
+<div class="breeding-rhombus-spinner" [style]="spinnerStyle">
+  <div class="rhombus" *ngFor="let rs of rhombusesStyles; let i = index;" [style]="rs" [class]="childClassString(i)"></div>
+  <div class="rhombus big" [style]="bigRhombusStyle"></div>
+</div>
