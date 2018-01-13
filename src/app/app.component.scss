@@ -1,0 +1,113 @@
+// I changed this file to scss to enable me display the name on hover.
+// The implementation was easier and more readable with scss
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  width: 90%;
+  margin: 0 auto;
+  padding-left: 5%;
+
+  .title-holder {
+    width: 100%;
+    margin: 30px 0;
+    .header {
+      color: whitesmoke;
+      opacity: .80;
+      text-transform: uppercase;
+      font-size: 25px;
+      margin-bottom: 3px;
+      text-align: center;
+    }
+
+    .sub-header {
+      color: whitesmoke;
+      opacity: .60;
+      font-size: 18px;
+      text-align: center;
+      margin: 5px 0;
+
+      .link {
+        color: #ff1d5e;
+        text-decoration: none;
+        text-transform: uppercase;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+.get-started {
+  margin-top: 70px;
+
+  .get-started__docs {
+    display: flex;
+    justify-content: center;
+
+    h4 {
+      color: #9e3050;
+      margin: 20px 10px;
+      text-align: center;
+      display: inline-block;
+    }
+
+    .docs {
+      @extend h4;
+      margin-left: 10px;
+      text-transform: uppercase;
+    }
+  }
+
+  .get-started-code {
+    background: #030810 + 40;
+    color: whitesmoke;
+    padding: 10px 40px;
+    text-align: center;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 3px;
+
+    p {
+      margin: 10px 0;
+      font-size: 13px;
+    }
+  }
+}
+
+.spinner-holder {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 10px;
+  margin: 30px 0;
+  min-height: 150px;
+
+  &:hover {
+    .name {
+      display: block;
+    }
+    background: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 4px 5px 0 #9e3050;
+  }
+}
+
+.name {
+  display: none;
+  padding: 10px 0;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 15px 0 0;
+}
