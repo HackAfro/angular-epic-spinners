@@ -1,13 +1,37 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-fulfilling-square-spinner',
-  templateUrl: './fulfilling-square-spinner.component.html',
+  template: `
+    <div class="fulfilling-square-spinner" [style]="spinnerStyle">
+      <div class="spinner-inner" [style]="spinnerInnerStyle"></div>
+    </div>
+  `,
   styleUrls: ['./fulfilling-square-spinner.component.css']
 })
 export class FulfillingSquareSpinnerComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+  }
+
+  @Input() animationDuration = 4000;
+  @Input() size = 50;
+  @Input() color = '#fff';
+
+  get spinnerStyle() {
+    return {
+      height: `${this.size}px`,
+      width: `${this.size}px`,
+      borderColor: this.color,
+    };
+  }
+
+  get spinnerInnerStyle() {
+    return {
+      backgroundColor: this.color
+    };
+  }
+
 
   ngOnInit() {
   }

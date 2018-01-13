@@ -2,7 +2,12 @@ import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-breeding-rhombus-spinner',
-  templateUrl: './breeding-rhombus-spinner.component.html',
+  template: `
+      <div class="breeding-rhombus-spinner" [style]="spinnerStyle">
+        <div class="rhombus" *ngFor="let rs of rhombusesStyles; index as i;" [style]="rs" [ngClass]="childClassString(i)"></div>
+        <div class="rhombus big" [style]="bigRhombusStyle"></div>
+      </div>
+    `,
   styleUrls: ['./breeding-rhombus-spinner.component.css']
 })
 export class BreedingRhombusSpinnerComponent implements OnInit {

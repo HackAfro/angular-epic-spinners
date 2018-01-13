@@ -1,13 +1,27 @@
-import { Component, OnInit, Input } from '@angular/core';
+import {Component, OnInit, Input} from '@angular/core';
 
 @Component({
   selector: 'app-atom-spinner',
-  templateUrl: './atom-spinner.component.html',
+  template: `
+      <div class="atom-spinner" [style]="spinnerStyle">
+        <div class="spinner-inner">
+          <div class="spinner-line" [style]="lineStyle"></div>
+          <div class="spinner-line" [style]="lineStyle"></div>
+          <div class="spinner-line" [style]="lineStyle"></div>
+    <!--Chrome renders little circles malformed :(-->
+          <div class="spinner-circle" [style]="circleStyle">
+            &#9679;
+          </div>
+        </div>
+      </div>
+  `,
   styleUrls: ['./atom-spinner.component.css']
 })
 export class AtomSpinnerComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+  }
+
   @Input() size = 60;
   @Input() animationDuration = 1000;
   @Input() color = 'red';
