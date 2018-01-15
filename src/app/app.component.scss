@@ -7,11 +7,11 @@
   padding: 20px;
   width: 90%;
   margin: 0 auto;
-  padding-left: 5%;
 
   .title-holder {
     width: 100%;
     margin: 30px 0;
+
     .header {
       color: whitesmoke;
       opacity: .80;
@@ -27,22 +27,22 @@
       font-size: 18px;
       text-align: center;
       margin: 5px 0;
-
-      .link {
-        color: #ff1d5e;
-        text-decoration: none;
-        text-transform: uppercase;
-
-        &:hover {
-          text-decoration: underline;
-        }
-      }
     }
   }
 }
 
+.link {
+  color: #ff1d5e;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .get-started {
-  margin-top: 70px;
+  margin-top: 50px;
 
   .get-started__docs {
     display: flex;
@@ -110,4 +110,35 @@
   font-weight: bold;
   text-transform: uppercase;
   margin: 15px 0 0;
+}
+
+footer{
+  padding: 30px 55px;
+  background: #030810 + 45;
+  color: whitesmoke;
+
+  h4{
+    margin: 10px 0;
+  }
+
+  p{
+    font-size: 14px;
+  }
+  a{
+    text-transform: capitalize;
+  }
+}
+
+@media (max-width: 675px) {
+  .spinner-holder{
+    width: 40%;
+  }
+  footer{
+    padding: 20px 15px;
+
+    p{
+      font-size: 12px;
+    }
+  }
+
 }
