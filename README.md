@@ -17,11 +17,11 @@ OR
 Example 
 
 ``` angular
-     <app-atom-spinner
-          [animationDuration]="1000"
-          [size]="60"
-          [color]="'#ff1d5e'"
-     ></app-atom-spinner>
+ <app-atom-spinner
+   [animationDuration]="1000"
+   [size]="60"
+   [color]="'#ff1d5e'"
+  ></app-atom-spinner>
   
   import {AtomSpinnerComponent} from 'angular-epic-spinners'
   
