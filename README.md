@@ -1,27 +1,168 @@
-# AngularEpicSpinners
+# Angular Epic Spinners
+Reusable angular components for epic spinners
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.1.
+## Demo
+Visit the [demo](http://github.com/hackafro/angular-epic-spinners.io) page to see spinners in action 
 
-## Development server
+## Installation
+`
+npm install --save angular-epic-spinners
+`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+OR
 
-## Code scaffolding
+`yarn install angular-epic-spinners`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Usage
+Example 
 
-## Build
+``` angular
+     <app-atom-spinner
+          [animationDuration]="1000"
+          [size]="60"
+          [color]="'#ff1d5e'"
+     ></app-atom-spinner>
+  
+  import {AtomSpinnerComponent} from 'angular-epic-spinners'
+  
+  @NgModule({
+    declarations: [AtomSpinnerComponent]
+  })
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## Components list
+You can easily configure spinners' size, color and animation speed
 
-## Running unit tests
+``` angular
+<app-flower-spinner
+  [animationDuration]="2500"
+  [size]="70"
+  [color]="'#ff1d5e'"
+></app-flower-spinner>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<app-pixel-spinner
+  [animationDuration]="2000"
+  [pixelSize]="70"
+  [color]="'#ff1d5e'"
+></app-pixel-spinner>
 
-## Running end-to-end tests
+<app-hollow-dots-spinner
+  [animationDuration]="1000"
+  [dotSize]="15"
+  [dotsNum]="3"
+  [color]="'#ff1d5e'"
+></app-hollow-dots-spinner>
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+<app-intersecting-circles-spinner
+  [animationDuration]="1200"
+  [size]="70"
+  [color]="'#ff1d5e'"
+></app-intersecting-circles-spinner>
 
-## Further help
+<app-orbit-spinner
+  [animationDuration]="1200"
+  [size]="55"
+  [color]="'#ff1d5e'"
+></app-orbit-spinner>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+<app-radar-spinner
+  [animationDuration]="2000"
+  [size]="60"
+  [color]="'#ff1d5e'"
+></app-radar-spinner>
+
+<app-scaling-squares-spinner
+  [animationDuration]="1250"
+  [size]="65"
+  [color]="'#ff1d5e'"
+></app-scaling-squares-spinner>
+
+<app-half-circle-spinner
+  [animationDuration]="1000"
+  [size]="60"
+  [color]="'#ff1d5e'"
+></app-half-circle-spinner>
+
+<app-trinity-rings-spinner
+  [animationDuration]="1500"
+  [size]="66"
+  [color]="'#ff1d5e'"
+></app-trinity-rings-spinner>
+
+<app-fulfilling-square-spinner
+  [animationDuration]="4000"
+  [size]="50"
+  [color]="'#ff1d5e'"
+></app-fulfilling-square-spinner>
+
+<app-circles-to-rhombuses-spinner
+  [animationDuration]="1200"
+  [circlesNum]="3"
+  [circleSize]="15"
+  [color]="'#ff1d5e'"
+></app-circles-to-rhombuses-spinner>
+    
+<app-semipolar-spinner
+  [animationDuration]="2000"
+  [size]="65"
+  [color]="'#ff1d5e'"
+></app-semipolar-spinner>
+    
+<app-self-building-square-spinner
+  [animationDuration]="6000"
+  [size]="40"
+  [color]="'#ff1d5e'"
+></app-self-building-square-spinner>
+    
+<app-swapping-squares-spinner
+  [animationDuration]="1000"
+  [size]="65"
+  [color]="'#ff1d5e'"
+></app-swapping-squares-spinner>
+
+<app-fulfilling-bouncing-circle-spinner
+  [animationDuration]="4000"
+  [size]="60"
+  [color]="'#ff1d5e'"
+></app-fulfilling-bouncing-circle-spinner>
+
+<app-fingerprint-spinner
+  [animationDuration]="1500"
+  [size]="64"
+  [color]="'#ff1d5e'"
+></app-fingerprint-spinner>
+
+<app-spring-spinner
+  [animationDuration]="3000"
+  [size]="60"
+  [color]="'#ff1d5e'"
+></app-spring-spinner>
+
+<app-atom-spinner
+  [animationDuration]="1000"
+  [size]="60"
+  [color]="'#ff1d5e'"
+></app-atom-spinner>
+
+<app-looping-rhombuses-spinner
+  [animationDuration]="2500"
+  [rhombusSize]="15"
+  [color]="'#ff1d5e'"
+></app-looping-rhombuses-spinner>
+
+<app-breeding-rhombus-spinner
+  [animationDuration]="2000"
+  [size]="65"
+  [color]="'#ff1d5e'"
+/><app-breeding-rhombus-spinner>
+```
+## Support?
+- Star the repo :star:
+- Create pull requests 
+- Follow me on twitter [@iamAfro](https://twitter.com/iamafro)
+
+## License
+[MIT]()license.
+
+
+
