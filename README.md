@@ -2,7 +2,7 @@
 Reusable angular components for epic spinners
 
 ## Demo
-Visit the [demo](http://github.com/hackafro/angular-epic-spinners.io) page to see spinners in action 
+Visit the [demo](http://hackafro.github.io/angular-epic-spinners/) page to see spinners in action 
 
 ## Installation
 `

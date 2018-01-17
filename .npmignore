@@ -1,0 +1,13 @@
+/.idea
+/node_modules
+/dist
+.travis.yml
+tsconfig.json
+tslint.json
+/e2e
+/src/test.ts
+/src/tsconfig.app.json
+/src/environments/
+/src/typings.d.ts
+/src/tsconfig.spec.json
+karma.conf.js
