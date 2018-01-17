@@ -11,3 +11,5 @@ tslint.json
 /src/typings.d.ts
 /src/tsconfig.spec.json
 karma.conf.js
+protractor.conf.js
+yarn.lock

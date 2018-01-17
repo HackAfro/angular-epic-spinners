@@ -162,7 +162,7 @@ You can easily configure spinners' size, color and animation speed
 - Follow me on twitter [@iamAfro](https://twitter.com/iamafro)
 
 ## License
-[MIT]()license.
+[MIT](https://github.com/hackafro/angular-epic-spinners/license) license.
 
 
 
