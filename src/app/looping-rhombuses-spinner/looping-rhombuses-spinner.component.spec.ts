@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LoopingRhombusesSpinnerComponent } from './looping-rhombuses-spinner.component';
+import { LoopingRhombusesSpinnerComponent } from './looping-rhumbuses-spinner.component';
 
 describe('LoopingRhombusesSpinnerComponent', () => {
   let component: LoopingRhombusesSpinnerComponent;

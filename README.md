@@ -16,18 +16,20 @@ OR
 ## Usage
 Example 
 
-``` angular
- <app-atom-spinner
-   [animationDuration]="1000"
-   [size]="60"
-   [color]="'#ff1d5e'"
-  ></app-atom-spinner>
-  
-  import {AtomSpinnerComponent} from 'angular-epic-spinners'
+Import each spinners' module into your module file and use the spinner component anywhere. 
+
+``` angular  
+  import {AtomSpinnerModule} from 'angular-epic-spinners'
   
   @NgModule({
-    declarations: [AtomSpinnerComponent]
+    imports: [AtomSpinnerModule]
   })
+  
+  <app-atom-spinner
+     [animationDuration]="1000"
+     [size]="60"
+     [color]="'#ff1d5e'"
+    ></app-atom-spinner>
 ```
 
 ## Components list

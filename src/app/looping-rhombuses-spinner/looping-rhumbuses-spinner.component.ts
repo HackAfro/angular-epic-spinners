@@ -12,7 +12,7 @@ import {Component, Input, OnInit} from '@angular/core';
   `,
   styleUrls: ['./looping-rhombuses-spinner.component.css']
 })
-export class LoopingRhombusesSpinnerComponent implements OnInit {
+export class LoopingRhumbusesSpinnerComponent implements OnInit {
 
   constructor() {
   }
