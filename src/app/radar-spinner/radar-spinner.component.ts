@@ -3,10 +3,10 @@ import {Component, Input, OnInit} from '@angular/core';
 @Component({
   selector: 'app-radar-spinner',
   template: `
-    <div class="radar-spinner" [style]="spinnerStyle">
-      <div class="circle" *ngFor="let cs of circlesStyles" [style]="cs">
-        <div class="circle-inner-container" [style]="circleInnerContainerStyle">
-          <div class="circle-inner" [style]="circleInnerStyle"></div>
+    <div class="radar-spinner" [ngStyle]="spinnerStyle">
+      <div class="circle" *ngFor="let cs of circlesStyles" [ngStyle]="cs">
+        <div class="circle-inner-container" [ngStyle]="circleInnerContainerStyle">
+          <div class="circle-inner" [ngStyle]="circleInnerStyle"></div>
         </div>
       </div>
     </div>

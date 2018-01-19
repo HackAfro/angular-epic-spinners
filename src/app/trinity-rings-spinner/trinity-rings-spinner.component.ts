@@ -3,10 +3,10 @@ import {Component, Input, OnInit} from '@angular/core';
 @Component({
   selector: 'app-trinity-rings-spinner',
   template: `
-    <div class="trinity-rings-spinner" [style]="spinnerStyle">
-      <div class="circle circle1" [style]="ring1Style"></div>
-      <div class="circle circle3" [style]="ring3Style"></div>
-      <div class="circle circle2" [style]="ring2Style"></div>
+    <div class="trinity-rings-spinner" [ngStyle]="spinnerStyle">
+      <div class="circle circle1" [ngStyle]="ring1Style"></div>
+      <div class="circle circle3" [ngStyle]="ring3Style"></div>
+      <div class="circle circle2" [ngStyle]="ring2Style"></div>
     </div>
   `,
   styleUrls: ['./trinity-rings-spinner.component.css']

@@ -3,10 +3,10 @@ import {Component, Input, OnInit} from '@angular/core';
 @Component({
   selector: 'app-self-building-square-spinner',
   template: `
-    <div class="self-building-square-spinner" [style]="spinnerStyle">
+    <div class="self-building-square-spinner" [ngStyle]="spinnerStyle">
       <div class="square"
            *ngFor="let ss of squaresStyles; let i = index;"
-           [style]="ss"
+           [ngStyle]="ss"
            [ngClass]="{'clear': i && i % 3 === 0}"
       >
       </div>

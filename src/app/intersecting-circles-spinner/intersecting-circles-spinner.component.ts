@@ -3,9 +3,9 @@ import {Component, Input, OnInit} from '@angular/core';
 @Component({
   selector: 'app-intersecting-circles-spinner',
   template: `
-    <div class="intersecting-circles-spinner" [style]="spinnerStyle">
-      <div class="spinnerBlock" [style]="spinnerBlockStyle">
-        <span class="circle" *ngFor="let cs of circleStyles" [style]="cs"></span>
+    <div class="intersecting-circles-spinner" [ngStyle]="spinnerStyle">
+      <div class="spinnerBlock" [ngStyle]="spinnerBlockStyle">
+        <span class="circle" *ngFor="let cs of circleStyles" [ngStyle]="cs"></span>
       </div>
     </div>
   `,

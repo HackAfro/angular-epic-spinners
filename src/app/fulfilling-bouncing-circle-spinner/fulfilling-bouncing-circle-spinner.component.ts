@@ -1,11 +1,11 @@
-import {Component, Input, OnInit} from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-fulfilling-bouncing-circle-spinner',
   template: `
-    <div class="fulfilling-bouncing-circle-spinner" [style]="spinnerStyle">
-      <div class="circle" [style]="circleStyle"></div>
-      <div class="orbit" [style]="orbitStyle"></div>
+    <div class="fulfilling-bouncing-circle-spinner" [ngStyle]="spinnerStyle">
+      <div class="circle" [ngStyle]="circleStyle"></div>
+      <div class="orbit" [ngStyle]="orbitStyle"></div>
     </div>
   `,
   styleUrls: ['./fulfilling-bouncing-circle-spinner.component.css']

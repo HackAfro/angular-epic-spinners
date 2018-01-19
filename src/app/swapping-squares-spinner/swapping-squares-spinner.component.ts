@@ -3,11 +3,11 @@ import {Component, Input, OnInit} from '@angular/core';
 @Component({
   selector: 'app-swapping-squares-spinner',
   template: `
-    <div class="swapping-squares-spinner" [style]="spinnerStyle">
+    <div class="swapping-squares-spinner" [ngStyle]="spinnerStyle">
       <div class="square"
            *ngFor="let ss of squaresStyles; let i = index;"
            [ngClass]="'square-' + (i + 1)"
-           [style]="ss">
+           [ngStyle]="ss">
       </div>
     </div>
   `,

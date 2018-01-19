@@ -1,10 +1,10 @@
-import {Component, Input, OnInit} from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-circles-to-rhumbuses-spinner',
   template: `
-    <div class="circles-to-rhombuses-spinner" [style]="spinnerStyle">
-      <div class="circle" *ngFor="let cs of circlesStyles; let i = index;" [style]="cs"></div>
+    <div class="circles-to-rhombuses-spinner" [ngStyle]="spinnerStyle">
+      <div class="circle" *ngFor="let cs of circlesStyles; let i = index;" [ngStyle]="cs"></div>
     </div>
   `,
   styleUrls: ['./circles-to-rhumbuses-spinner.component.css']

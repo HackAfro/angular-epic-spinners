@@ -3,9 +3,9 @@ import { Component, OnInit, Input } from '@angular/core';
 @Component({
   selector: 'app-breeding-rhombus-spinner',
   template: `
-      <div class="breeding-rhombus-spinner" [style]="spinnerStyle">
-        <div class="rhombus" *ngFor="let rs of rhombusesStyles; index as i;" [style]="rs" [ngClass]="childClassString(i)"></div>
-        <div class="rhombus big" [style]="bigRhombusStyle"></div>
+      <div class="breeding-rhombus-spinner" [ngStyle]="spinnerStyle">
+        <div class="rhombus" *ngFor="let rs of rhombusesStyles; let i = index;" [ngStyle]="rs" [ngClass]="childClassString(i)"></div>
+        <div class="rhombus big" [ngStyle]="bigRhombusStyle"></div>
       </div>
     `,
   styleUrls: ['./breeding-rhombus-spinner.component.css']

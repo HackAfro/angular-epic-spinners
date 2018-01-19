@@ -1,12 +1,12 @@
-import {Component, Input, OnChanges, OnInit} from '@angular/core';
+import { Component, Input, OnChanges, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-flower-spinner',
   template: `
-    <div class="flower-spinner" [style]="spinnerStyle">
-      <div class="dots-container" [style]="dotsContainerStyle">
-        <div class="bigger-dot" [style]="biggerDotStyle">
-          <div class="smaller-dot" [style]="smallerDotStyle"></div>
+    <div class="flower-spinner" [ngStyle]="spinnerStyle">
+      <div class="dots-container" [ngStyle]="dotsContainerStyle">
+        <div class="bigger-dot" [ngStyle]="biggerDotStyle">
+          <div class="smaller-dot" [ngStyle]="smallerDotStyle"></div>
         </div>
       </div>
     </div>

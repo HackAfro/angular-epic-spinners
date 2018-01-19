@@ -3,13 +3,12 @@ import {Component, OnInit, Input} from '@angular/core';
 @Component({
   selector: 'app-atom-spinner',
   template: `
-      <div class="atom-spinner" [style]="spinnerStyle">
+      <div class="atom-spinner" [ngStyle]="spinnerStyle">
         <div class="spinner-inner">
-          <div class="spinner-line" [style]="lineStyle"></div>
-          <div class="spinner-line" [style]="lineStyle"></div>
-          <div class="spinner-line" [style]="lineStyle"></div>
-    <!--Chrome renders little circles malformed :(-->
-          <div class="spinner-circle" [style]="circleStyle">
+          <div class="spinner-line" [ngStyle]="lineStyle"></div>
+          <div class="spinner-line" [ngStyle]="lineStyle"></div>
+          <div class="spinner-line" [ngStyle]="lineStyle"></div>
+          <div class="spinner-circle" [ngStyle]="circleStyle">
             &#9679;
           </div>
         </div>

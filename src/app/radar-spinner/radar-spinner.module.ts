@@ -1,10 +1,11 @@
 import {NgModule} from '@angular/core';
 
 import {RadarSpinnerComponent} from './radar-spinner.component';
+import {CommonModule} from '@angular/common';
 
 @NgModule({
-  imports: [],
-  exports: [],
+  imports: [CommonModule],
+  exports: [RadarSpinnerComponent],
   declarations: [RadarSpinnerComponent],
   providers: [],
 })

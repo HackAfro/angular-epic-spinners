@@ -3,8 +3,8 @@ import {Component, Input, OnInit} from '@angular/core';
 @Component({
   selector: 'app-semipolar-spinner',
   template: `
-    <div class="semipolar-spinner" [style]="spinnerStyle">
-      <div class="ring" *ngFor="let rs of ringsStyles" [style]="rs"></div>
+    <div class="semipolar-spinner" [ngStyle]="spinnerStyle">
+      <div class="ring" *ngFor="let rs of ringsStyles" [ngStyle]="rs"></div>
     </div>
   `,
   styleUrls: ['./semipolar-spinner.component.css']

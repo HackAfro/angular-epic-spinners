@@ -1,10 +1,10 @@
-import {Component, Input, OnInit} from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-pixel-spinner',
   template: `
-    <div class="pixel-spinner" [style]="spinnerStyle">
-      <div class="pixel-spinner-inner" [style]="spinnerInnerStyle"></div>
+    <div class="pixel-spinner" [ngStyle]="spinnerStyle">
+      <div class="pixel-spinner-inner" [ngStyle]="spinnerInnerStyle"></div>
     </div>
   `,
   styleUrls: ['./pixel-spinner.component.css']
@@ -18,7 +18,7 @@ export class PixelSpinnerComponent implements OnInit {
   @Input() size = 50;
   @Input() color = '#fff';
 
-  animationBaseName = 'pixel-sspinner-animation';
+  animationBaseName = 'pixel-spinner-animation';
   currentAnimationName = '';
 
   get pixelSize(): number {

@@ -1,56 +1,56 @@
-import {BrowserModule} from '@angular/platform-browser';
-import {NgModule} from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
 
 
-import {AppComponent} from './app.component';
-import {AtomSpinnerComponent} from './atom-spinner/atom-spinner.component';
-import {CirclesToRhumbusesSpinnerComponent} from './circles-to-rhumbuses-spinner/circles-to-rhumbuses-spinner.component';
-import {FulfillingBouncingCircleSpinnerComponent} from './fulfilling-bouncing-circle-spinner/fulfilling-bouncing-circle-spinner.component';
-import {LoopingRhombusesSpinnerComponent} from './looping-rhombuses-spinner/looping-rhumbuses-spinner.component';
-import {SemipolarSpinnerComponent} from './semipolar-spinner/semipolar-spinner.component';
-import {FingerprintSpinnerComponent} from './fingerprint-spinner/fingerprint-spinner.component';
-import {FlowerSpinnerComponent} from './flower-spinner/flower-spinner.component';
-import {FulfillingSquareSpinnerComponent} from './fulfilling-square-spinner/fulfilling-square-spinner.component';
-import {HalfCircleSpinnerComponent} from './half-circle-spinner/half-circle-spinner.component';
-import {HollowDotsSpinnerComponent} from './hollow-dots-spinner/hollow-dots-spinner.component';
-import {IntersectingCirclesSpinnerComponent} from './intersecting-circles-spinner/intersecting-circles-spinner.component';
-import {OrbitSpinnerComponent} from './orbit-spinner/orbit-spinner.component';
-import {PixelSpinnerComponent} from './pixel-spinner/pixel-spinner.component';
-import {RadarSpinnerComponent} from './radar-spinner/radar-spinner.component';
-import {ScalingSquaresSpinnerComponent} from './scaling-squares-spinner/scaling-squares-spinner.component';
-import {SelfBuildingSquareSpinnerComponent} from './self-building-square-spinner/self-building-square-spinner.component';
-import {SpringSpinnerComponent} from './spring-spinner/spring-spinner.component';
-import {SwappingSquaresSpinnerComponent} from './swapping-squares-spinner/swapping-squares-spinner.component';
-import {TrinityRingsSpinnerComponent} from './trinity-rings-spinner/trinity-rings-spinner.component';
-import {BreedingRhombusSpinnerComponent} from './breeding-rhombus-spinner/breeding-rhombus-spinner.component';
+import { AppComponent } from './app.component';
+import {AtomSpinnerModule} from './atom-spinner/atom-spinner.module';
+import {BreedingRhombusSpinnerModule} from './breeding-rhombus-spinner/breeding-rhombus-spinner.module';
+import {FlowerSpinnerModule} from './flower-spinner/flower-spinner.module';
+import {FulfillingBouncingCircleSpinnerModule} from './fulfilling-bouncing-circle-spinner/fulfilling-bouncing-circle-spinner.module';
+import {FulfillingSquareSpinnerModule} from './fulfilling-square-spinner/fulfilling-square-spinner.module';
+import {HalfCircleSpinnerModule} from './half-circle-spinner/half-circle-spinner.module';
+import {LoopingRhumbusesSpinnerModule} from './looping-rhombuses-spinner/looping-rhumbuses-spinner.module';
+import {IntersectingCirclesSpinnerModule} from './intersecting-circles-spinner/intersecting-circles-spinner.module';
+import {HollowDotsSpinnerModule} from './hollow-dots-spinner/hollow-dots-spinner.module';
+import {PixelSpinnerModule} from './pixel-spinner/pixel-spinner.module';
+import {OrbitSpinnerModule} from './orbit-spinner/orbit-spinner.module';
+import {ScalingSquaresSpinnerModule} from './scaling-squares-spinner/scaling-squares-spinner.module';
+import {SemipolarSpinnerModule} from './semipolar-spinner/semipolar-spinner.module';
+import {SelfBuildingSquareSpinnerModule} from './self-building-square-spinner/self-building-square-spinner.module';
+import {SwappingSquaresSpinnerModule} from './swapping-squares-spinner/swapping-squares-spinner.module';
+import {RadarSpinnerModule} from './radar-spinner/radar-spinner.module';
+import {SpringSpinnerModule} from './spring-spinner/spring-spinner.module';
+import {TrinityRingsSpinnerModule} from './trinity-rings-spinner/trinity-rings-spinner.module';
+import {CirclesToRhumbusesSpinnerModule} from './circles-to-rhumbuses-spinner/circles-to-rhumbuses-spinner.module';
+import {FingerprintSpinnerModule} from './fingerprint-spinner/fingerprint-spinner.module';
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    AtomSpinnerComponent,
-    BreedingRhombusSpinnerComponent,
-    CirclesToRhumbusesSpinnerComponent,
-    FingerprintSpinnerComponent,
-    FlowerSpinnerComponent,
-    FulfillingBouncingCircleSpinnerComponent,
-    FulfillingSquareSpinnerComponent,
-    HalfCircleSpinnerComponent,
-    HollowDotsSpinnerComponent,
-    IntersectingCirclesSpinnerComponent,
-    LoopingRhombusesSpinnerComponent,
-    OrbitSpinnerComponent,
-    PixelSpinnerComponent,
-    RadarSpinnerComponent,
-    ScalingSquaresSpinnerComponent,
-    SelfBuildingSquareSpinnerComponent,
-    SemipolarSpinnerComponent,
-    SpringSpinnerComponent,
-    SwappingSquaresSpinnerComponent,
-    TrinityRingsSpinnerComponent
+    AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AtomSpinnerModule,
+    BreedingRhombusSpinnerModule,
+    CirclesToRhumbusesSpinnerModule,
+    FingerprintSpinnerModule,
+    FlowerSpinnerModule,
+    FulfillingBouncingCircleSpinnerModule,
+    FulfillingSquareSpinnerModule,
+    HalfCircleSpinnerModule,
+    HollowDotsSpinnerModule,
+    IntersectingCirclesSpinnerModule,
+    LoopingRhumbusesSpinnerModule,
+    OrbitSpinnerModule,
+    PixelSpinnerModule,
+    RadarSpinnerModule,
+    ScalingSquaresSpinnerModule,
+    SelfBuildingSquareSpinnerModule,
+    SemipolarSpinnerModule,
+    SpringSpinnerModule,
+    SwappingSquaresSpinnerModule,
+    TrinityRingsSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

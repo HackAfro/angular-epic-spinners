@@ -1,12 +1,12 @@
-import {Component, Input, OnInit} from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-looping-rhombuses-spinner',
   template: `
-    <div class="looping-rhombuses-spinner" [style]="spinnerStyle">
+    <div class="looping-rhombuses-spinner" [ngStyle]="spinnerStyle">
       <div class="rhombus"
            *ngFor="let rs of rhombusesStyles"
-           [style]="rs">
+           [ngStyle]="rs">
       </div>
     </div>
   `,

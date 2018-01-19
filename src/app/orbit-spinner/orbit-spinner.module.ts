@@ -1,9 +1,10 @@
 import {NgModule} from '@angular/core';
 
 import {OrbitSpinnerComponent} from './orbit-spinner.component';
+import {CommonModule} from '@angular/common';
 
 @NgModule({
-  imports: [],
+  imports: [CommonModule],
   exports: [OrbitSpinnerComponent],
   declarations: [OrbitSpinnerComponent],
   providers: [],

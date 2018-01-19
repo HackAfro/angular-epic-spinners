@@ -1,10 +1,10 @@
-import {Component, Input, OnInit} from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-fingerprint-spinner',
   template: `
-    <div class="fingerprint-spinner" [style]="spinnerStyle">
-      <div class="spinner-ring" *ngFor="let rs of ringsStyles" [style]="rs"></div>
+    <div class="fingerprint-spinner" [ngStyle]="spinnerStyle">
+      <div class="spinner-ring" *ngFor="let rs of ringsStyles" [ngStyle]="rs"></div>
     </div>
 
   `,

@@ -1,11 +1,11 @@
-import {Component, Input, OnInit} from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-half-circle-spinner',
   template: `
-    <div class="half-circle-spinner" [style]="spinnerStyle">
-      <div class="circle circle-1" [style]="circle1Style"></div>
-      <div class="circle circle-2" [style]="circle2Style"></div>
+    <div class="half-circle-spinner" [ngStyle]="spinnerStyle">
+      <div class="circle circle-1" [ngStyle]="circle1Style"></div>
+      <div class="circle circle-2" [ngStyle]="circle2Style"></div>
     </div>
   `,
   styleUrls: ['./half-circle-spinner.component.css']

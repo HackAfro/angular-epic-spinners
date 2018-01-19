@@ -1,9 +1,10 @@
 import {NgModule} from '@angular/core';
 
 import {FulfillingSquareSpinnerComponent} from './fulfilling-square-spinner.component';
+import {CommonModule} from '@angular/common';
 
 @NgModule({
-  imports: [],
+  imports: [CommonModule],
   exports: [FulfillingSquareSpinnerComponent],
   declarations: [FulfillingSquareSpinnerComponent],
   providers: [],

@@ -3,12 +3,12 @@ import {Component, Input, OnInit} from '@angular/core';
 @Component({
   selector: 'app-spring-spinner',
   template: `
-    <div class="spring-spinner" [style]="spinnerStyle">
-      <div class="spring-spinner-part top" [style]="spinnerPartStyle">
-        <div class="spring-spinner-rotator" [style]="rotatorStyle"></div>
+    <div class="spring-spinner" [ngStyle]="spinnerStyle">
+      <div class="spring-spinner-part top" [ngStyle]="spinnerPartStyle">
+        <div class="spring-spinner-rotator" [ngStyle]="rotatorStyle"></div>
       </div>
-      <div class="spring-spinner-part bottom" [style]="spinnerPartStyle">
-        <div class="spring-spinner-rotator" [style]="rotatorStyle"></div>
+      <div class="spring-spinner-part bottom" [ngStyle]="spinnerPartStyle">
+        <div class="spring-spinner-rotator" [ngStyle]="rotatorStyle"></div>
       </div>
     </div>
   `,

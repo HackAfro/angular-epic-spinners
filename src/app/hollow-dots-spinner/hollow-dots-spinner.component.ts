@@ -1,10 +1,10 @@
-import {Component, Input, OnInit} from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-hollow-dots-spinner',
   template: `
-    <div class="hollow-dots-spinner" [style]="spinnerStyle">
-      <div class="dot" *ngFor="let ds of dotsStyles" [style]="ds"></div>
+    <div class="hollow-dots-spinner" [ngStyle]="spinnerStyle">
+      <div class="dot" *ngFor="let ds of dotsStyles" [ngStyle]="ds"></div>
     </div>
   `,
   styleUrls: ['./hollow-dots-spinner.component.css']

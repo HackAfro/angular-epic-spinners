@@ -1,9 +1,10 @@
 import {NgModule} from '@angular/core';
 
 import {SwappingSquaresSpinnerComponent} from './swapping-squares-spinner.component';
+import {CommonModule} from '@angular/common';
 
 @NgModule({
-  imports: [],
+  imports: [CommonModule],
   exports: [SwappingSquaresSpinnerComponent],
   declarations: [SwappingSquaresSpinnerComponent],
   providers: [],

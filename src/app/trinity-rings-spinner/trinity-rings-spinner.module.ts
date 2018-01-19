@@ -1,9 +1,10 @@
 import {NgModule} from '@angular/core';
 
 import {TrinityRingsSpinnerComponent} from './trinity-rings-spinner.component';
+import {CommonModule} from '@angular/common';
 
 @NgModule({
-  imports: [],
+  imports: [CommonModule],
   exports: [TrinityRingsSpinnerComponent],
   declarations: [TrinityRingsSpinnerComponent],
   providers: [],
