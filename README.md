@@ -18,7 +18,7 @@ Example
 
 Import each spinners' module into your module file and use the spinner component anywhere. 
 
-``` angular  
+```angular  
   import {AtomSpinnerModule} from 'angular-epic-spinners'
   
   @NgModule({
@@ -35,7 +35,7 @@ Import each spinners' module into your module file and use the spinner component
 ## Components list
 You can easily configure spinners' size, color and animation speed
 
-``` angular
+```angular
 <app-flower-spinner
   [animationDuration]="2500"
   [size]="70"
