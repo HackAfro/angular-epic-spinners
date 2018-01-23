@@ -1,4 +1,6 @@
 # Angular Epic Spinners
+[![npm](https://img.shields.io/npm/dm/angular-epic-spinners.svg)]() [![npm](https://img.shields.io/npm/l/angular-epic-spinners.svg)]() [![npm](https://img.shields.io/npm/v/angular-epic-spinners.svg)]()
+
 Reusable angular components for epic spinners
 
 ## Demo
