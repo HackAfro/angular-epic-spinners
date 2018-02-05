@@ -5,17 +5,20 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --base-href \"https://hackafro.github.io/angular-epic-spinners\"",
+    "build":
+      "ng build --prod --base-href \"https://hackafro.github.io/angular-epic-spinners/\"",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "packagr": "ng-packagr -p ng-package.json",
-    "deploy": "npm run build && ngh"
+    "deploy": "npm run build && ngh",
+    "pack": "npm pack"
   },
-  "author": {
-    "name": "Richard Afro",
-    "email": "richyafro@gmail.com"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HackAfro/wgbc.git"
   },
+  "author": "iamAfro <richyafro@gmail.com>",
   "url": "https://github.com/hackafro/angular-epic-spinners",
   "private": false,
   "dependencies": {

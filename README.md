@@ -7,9 +7,8 @@ Reusable angular components for epic spinners
 Visit the [demo](http://hackafro.github.io/angular-epic-spinners/) page to see spinners in action 
 
 ## Installation
-`
-npm install --save angular-epic-spinners
-`
+
+`npm install --save angular-epic-spinners`
 
 OR
 
