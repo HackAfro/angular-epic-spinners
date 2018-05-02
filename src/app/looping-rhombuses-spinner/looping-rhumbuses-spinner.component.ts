@@ -34,7 +34,7 @@ export class LoopingRhumbusesSpinnerComponent implements OnInit {
     return {
       height: `${this.rhombusSize}px`,
       width: `${this.rhombusSize}px`,
-      backgroundColor: this.color,
+      background: this.color,
       animationDuration: `${this.animationDuration}ms`,
       left: `${this.rhombusSize * 4}px`
     };
