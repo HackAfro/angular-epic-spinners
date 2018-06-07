@@ -53,6 +53,7 @@ export class LoopingRhumbusesSpinnerComponent implements OnInit {
   }
 
   ngOnInit() {
+    
   }
 
 }
