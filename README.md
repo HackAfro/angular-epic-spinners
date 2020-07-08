@@ -12,7 +12,7 @@ Visit the [demo](http://hackafro.github.io/angular-epic-spinners/) page to see s
 
 OR
 
-`yarn install angular-epic-spinners`
+`yarn add angular-epic-spinners`
 
 ## Usage
 Example 
